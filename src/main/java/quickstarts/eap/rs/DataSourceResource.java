@@ -18,7 +18,7 @@ public class DataSourceResource {
 
     private static final Logger LOG = LoggerFactory.getLogger(DataSourceResource.class);
 
-    @Resource(lookup = "java:jboss/PostgresDS")
+    @Resource(lookup = "java:jboss/datasource/DS1")
     DataSource dataSource;
 
     @GET
