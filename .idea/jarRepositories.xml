@@ -2,6 +2,11 @@
 <project version="4">
   <component name="RemoteRepositoriesConfiguration">
     <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="repositories" />
       <option name="name" value="repositories" />
       <option name="url" value="http://maven.nameislocus.iptime.org/nexus/content/groups/repositories" />
@@ -25,6 +30,11 @@
       <option name="id" value="jboss-3rd-party" />
       <option name="name" value="jboss-3rd-party" />
       <option name="url" value="http://maven.nameislocus.iptime.org/nexus/content/groups/repositories" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss-3rd-party" />
+      <option name="name" value="jboss-3rd-party" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/thirdparty-releases/" />
     </remote-repository>
   </component>
 </project>
