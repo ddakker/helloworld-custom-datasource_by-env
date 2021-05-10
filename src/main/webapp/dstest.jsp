@@ -19,7 +19,7 @@
             String tableName = request.getParameter("tableName");
             String query = "SELECT * FROM " + tableName;
             if (tableName == null) {
-                query = "SELECT 1 FROM DUAL"
+                query = "SELECT 1 FROM DUAL";
             }
 
             Connection conn = null;
